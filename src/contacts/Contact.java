@@ -18,12 +18,6 @@ public abstract class Contact {
         timeEdited = timeCreated;
     }
 
-//    public Contact(String name, String phoneNumber, Boolean isPerson) {
-//        this.name = name;
-//        this.phoneNumber = phoneNumber;
-//        this.isPerson = isPerson;
-//    }
-
     public String getName() {
         return name;
     }

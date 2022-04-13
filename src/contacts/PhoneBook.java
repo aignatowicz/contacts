@@ -11,19 +11,6 @@ import java.util.regex.Pattern;
 
 public class PhoneBook {
     List<Contact> contactList = new ArrayList<>();
-//    public void getTestList() {
-//        Contact contact1 = new Person("Aga", "Piekna", LocalDate.parse("1998-03-19"), "F");
-//        Contact contact2 = new Organization("Pizza u Agi", "Slonecznikowa 21");
-//        Contact contact3 = new Person("Zuzia", "Sliczna", LocalDate.parse("2002-07-19"), "F");
-//        Contact contact4 = new Person("Kotek", "Pinatowski", LocalDate.parse("2010-07-19"), "M");
-//        Contact contact5 = new Organization("Prywata u Pinata", "Norwida 8");
-//        testList.add(contact1);
-//        testList.add(contact2);
-//        testList.add(contact3);
-//        testList.add(contact4);
-//        testList.add(contact5);
-//        contactList = testList;
-//    }
     public void addPerson(String name, String surname, String date, String gender, String phone) {
         LocalDate birthdate = null;
         if (date != null) {
